@@ -1,0 +1,276 @@
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "WS2812B_fromStrip" (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at 0 3.81 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "WS2812B_fromStrip" (id 1) (at 0 -6.604 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "WS2812B_connector:WS2812B_strip_in" (id 2) (at 0 6.858 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "WS2812B_fromStrip_0_0"
+      (text "mult." (at 6.35 1.27 0)
+        (effects (font (size 1.27 1.27)))
+      )
+    )
+    (symbol "WS2812B_fromStrip_0_1"
+      (rectangle (start -1.905 2.54) (end 10.16 -5.08)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.08 -1.27)
+          (xy 5.715 -1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 6.096 -2.794)
+          (xy 6.731 -4.699)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 6.731 -4.699)
+          (xy 6.096 -4.064)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 6.731 -4.699)
+          (xy 6.731 -4.064)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 6.731 -4.064)
+          (xy 6.731 -3.429)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.112 -2.286)
+          (xy 7.747 -4.191)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.62 -1.27)
+          (xy 8.89 -1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.62 0)
+          (xy 7.62 -2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.747 -4.191)
+          (xy 7.112 -3.556)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.747 -4.191)
+          (xy 7.747 -3.556)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.747 -3.556)
+          (xy 7.747 -2.921)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.715 0)
+          (xy 5.715 -2.54)
+          (xy 7.62 -1.27)
+          (xy 5.715 0)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "WS2812B_fromStrip_1_1"
+      (pin power_in line (at -4.445 1.27 0) (length 2.54)
+        (name "5V" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin output line (at -4.445 -1.27 0) (length 2.54)
+        (name "fromStrip" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at -4.445 -3.81 0) (length 2.54)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "WS2812B_toStrip" (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at 0 3.81 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "WS2812B_toStrip" (id 1) (at 0 -6.604 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "WS2812B_connector:WS2812B_strip_out" (id 2) (at 0 6.858 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "WS2812B_toStrip_0_0"
+      (text "mult." (at 6.35 1.27 0)
+        (effects (font (size 1.27 1.27)))
+      )
+    )
+    (symbol "WS2812B_toStrip_0_1"
+      (rectangle (start -1.905 2.54) (end 10.16 -5.08)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.08 -1.27)
+          (xy 5.715 -1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 6.096 -2.794)
+          (xy 6.731 -4.699)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 6.731 -4.699)
+          (xy 6.096 -4.064)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 6.731 -4.699)
+          (xy 6.731 -4.064)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 6.731 -4.064)
+          (xy 6.731 -3.429)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.112 -2.286)
+          (xy 7.747 -4.191)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.62 -1.27)
+          (xy 8.89 -1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.62 0)
+          (xy 7.62 -2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.747 -4.191)
+          (xy 7.112 -3.556)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.747 -4.191)
+          (xy 7.747 -3.556)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.747 -3.556)
+          (xy 7.747 -2.921)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.715 0)
+          (xy 5.715 -2.54)
+          (xy 7.62 -1.27)
+          (xy 5.715 0)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "WS2812B_toStrip_1_1"
+      (pin power_in line (at -4.445 1.27 0) (length 2.54)
+        (name "5V" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line (at -4.445 -1.27 0) (length 2.54)
+        (name "toStrip" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at -4.445 -3.81 0) (length 2.54)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+)
